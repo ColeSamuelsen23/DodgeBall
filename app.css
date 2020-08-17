@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+canvas {
+  margin: 0;
+  padding: 0;
+}
+
+#score,
+#highscore,
+#congratulations {
+  position: absolute;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  display: inline-block;
+}
+#congratulations {
+  height: 500px;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -300px;
+  position: absolute;
+  top: 50%;
+  width: 600px;
+  display: none;
+}
+
+#highscore {
+  left: 2vw;
+  top: 8vh;
+  height: 5vw;
+  display: block;
+  min-height: 60px;
+}
+
+#score {
+  left: 2vw;
+  top: 3vh;
+  height: 10vh;
+}
+
+#points h2,
+img {
+  left: 95vw;
+  top: 5vh;
+  width: 3vw;
+  position: absolute;
+}
+
+#points h2 {
+  position: fixed;
+  left: 90vw;
+}
+
+html {
+  margin: 0;
+}
+
+#gameover {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+#gameover h1 {
+  font-size: 14vmin;
+  text-transform: uppercase;
+  margin: 30px;
+}
+
+#gameover h2 {
+  font-size: 8vmin;
+  margin: 30px;
+}
+#congrats {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+#congrats h1 {
+  font-size: 12vmin;
+  text-transform: uppercase;
+  margin: 30px;
+}
+
+#congrats h2 {
+  font-size: 12vmin;
+  letter-spacing: 0.1;
+}
+
+#healthbar {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: #9f0000;
+  width: 100vw;
+  height: 10px;
+  z-index: 10;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dodge Ball</title>
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <canvas onmousemove="setmouseCords(event)"></canvas>
+    <div id="healthbar"></div>
+    <div id="gameover">
+      <h1>Game Over</h1>
+      <h2>Press R to Restart</h2>
+    </div>
+    <div id="congrats">
+      <h1>Congrats :)</h1>
+      <h2>You Win!</h2>
+      <p>Developed by Cole Samuelsen</p>
+    </div>
+
+    <script src="./js/Circle.js"></script>
+    <script src="./js/GameFunctions.js"></script>
+    <script src="./js/Game.js"></script>
+  </body>
+</html>
